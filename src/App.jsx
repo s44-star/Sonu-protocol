@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+rt React, { useState, useEffect } from 'react';
 import { TonConnectProvider, TonConnectButton, useTonConnectWallet, useTonConnectUI } from '@tonconnect/ui-react';
 
 export default function App() {
@@ -219,4 +219,3 @@ function DropInterface() {
       </div>
     </div>
   );
-}
